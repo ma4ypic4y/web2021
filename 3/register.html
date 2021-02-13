@@ -11,39 +11,38 @@
 
 <body>
 
-    <script type="php">
-        
-    </script>
+    
 
     <div class="container">
 
-
-        <div class="col1">
-            <div class="form-control">
-                <input type="text" required>
-                <label>Name</label>
-            </div>
-        </div>
-
-
-        <div class="form-control">
-            <input type="text" required>
-            <label>Surname</label>
-        </div>
-
-        <div class="col2">
-
-            <div class="form-control">
-                <input type="text" required>
-                <label>Login</label>
+        <form action="/register" method="POST">
+            <div class="col1">
+                <div class="form-control">
+                    <input type="text" required name="userName">
+                    <label>Name</label>
+                </div>
             </div>
 
+
             <div class="form-control">
-                <input type="password" required>
-                <label>Password</label>
+                <input type="text" required name="userSurname"> 
+                <label>Surname</label>
             </div>
 
-        </div>
+            <div class="col2">
+
+                <div class="form-control">
+                    <input type="text" required>
+                    <label>Login</label>
+                </div>
+
+                <div class="form-control">
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+
+            </div>
+        </form>
 
 
         <div class="radiogroup">
@@ -109,13 +108,13 @@
         </div>
 
 
-        <button class="btn">Login</button>
+        <button class="btn" type="submit">Login</button>
 
 
 
     </div>
 
-    
+
     <script src="script.js"></script>
 
 </body>
