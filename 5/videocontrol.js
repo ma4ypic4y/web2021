@@ -20,6 +20,4 @@ function makeSmall() {
 function makeNormal() {
     myVideo.width = 1050;
     myVideo.height = 590;
-
-    
 }
