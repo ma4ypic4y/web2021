@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>HTML5 video</h1>
+
+    <video width="1050" height="590" controls="controls" autoplay="autoplay" controls="controls" poster="testvideo.jpg" id="video1">
+        <source src="testvideo.ogv" type='video/ogg; codecs="theora, vorbis"'>
+        <source src="testvideo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+        <source src="testvideo.webm" type='video/webm; codecs="vp8, vorbis"'>
+        Тег video не поддерживается вашим браузером.
+        <a href="testvideo.mp4">Скачайте видео</a>.
+
+    </video>
+    <!-- <p>
+        Autoplay ─ Видео начинает воспроизводиться автоматически после загрузки страницы. <br>
+        Controls ─ Добавляет панель управления к видеоролику.<br>
+        Height ─ Задает высоту области для воспроизведения видеоролика.<br>
+        Loop ─ Повторяет воспроизведение видео с начала после его завершения.<br>
+        Poster ─ Указывает адрес картинки, которая будет отображаться, пока видео не доступно или не воспроизводится.<br>
+        Preload ─ Используется для загрузки видео вместе с загрузкой веб-страницы.<br>
+        Src ─ Указывает путь к воспроизводимому видеоролику.<br>
+        Width ─ Задает ширину области для воспроизведения видеоролика.<br>
+    </p> -->
+    <br>
+    <button onclick="playPause()">Play/Pause</button>
+    <button onclick="makeBig()">Big</button>
+    <button onclick="makeSmall()">Small</button>
+    <button onclick="makeNormal()">Normal</button>
+    <script src="videocontrol.js"></script>
+</body>
+
+</html>
