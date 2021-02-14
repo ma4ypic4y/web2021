@@ -13,10 +13,10 @@
 
     <h1>HTML5 video</h1>
 
-    <video width="1050" height="590" controls="controls" autoplay="autoplay" controls="controls" poster="testvideo.jpg" id="video1">
-        <source src="testvideo.ogv" type='video/ogg; codecs="theora, vorbis"'>
+    <video width="1050" height="590" controls="controls" autoplay="autoplay" controls="controls"  id="video1" aria-selected="false">
+        <!-- <source src="testvideo.ogv" type='video/ogg; codecs="theora, vorbis"'> -->
         <source src="testvideo.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
-        <source src="testvideo.webm" type='video/webm; codecs="vp8, vorbis"'>
+        <!-- <source src="testvideo.webm" type='video/webm; codecs="vp8, vorbis"'> -->
         Тег video не поддерживается вашим браузером.
         <a href="testvideo.mp4">Скачайте видео</a>.
 
@@ -32,10 +32,12 @@
         Width ─ Задает ширину области для воспроизведения видеоролика.<br>
     </p> -->
     <br>
-    <button onclick="playPause()">Play/Pause</button>
-    <button onclick="makeBig()">Big</button>
-    <button onclick="makeSmall()">Small</button>
-    <button onclick="makeNormal()">Normal</button>
+    <button class="btn" onclick="playPause()" >Play/Pause</button>
+    <button class="btn" onclick="makeBig()">Big</button>
+    <button class="btn" onclick="makeSmall()">Small</button>
+    <button class="btn" onclick="makeNormal()">Normal</button>
+
+    
     <script src="videocontrol.js"></script>
 </body>
 
