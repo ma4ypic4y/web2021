@@ -1,16 +1,49 @@
 body {
-    background-color: #000000;
-    font-family: 'Muli', sans-serif;
-    text-align: center;
+  background-color: #000000;
+  font-family: 'Muli', sans-serif;
+  text-align: center;
 }
 
 h1 {
-    font-size: 50px;
-    color: #3aebca;
+  font-size: 50px;
+  color: #3aebca;
 
 }
 
 p {
-    color: antiquewhite;
-    text-align: left;
+  color: antiquewhite;
+  text-align: left;
 }
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn {
+
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #3aebca;
+  font-size: 16px;
+  border: 0;
+  border-radius: 9px;
+
+}
+
+video {
+  border: black;
+  border-radius: 0%;
+  user-select: none;
+
+}
+
+video:focus {
+  outline: 0;
+} 
+
