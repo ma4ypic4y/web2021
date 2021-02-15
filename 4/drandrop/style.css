@@ -3,7 +3,7 @@
   }
   
   body {
-    background-color: steelblue;
+    background-color: rgb(97, 53, 114);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,11 +17,13 @@
     width: 150px;
     margin: 10px;
     border: solid 3px black;
-    background: white;
+    background: rgb(43, 56, 80);
   }
+ 
   
   .fill {
-    background-image: url('https://source.unsplash.com/random/150x150');
+    background-color: rgb(239, 90, 131);
+    ;
     height: 145px;
     width: 145px;
     cursor: pointer;
@@ -33,13 +35,6 @@
   
   .hovered {
     background-color: #333;
-    border-color: white;
+    border-color: rgb(79, 165, 146);
     border-style: dashed;
   }
-  
-  @media (max-width: 800px) {
-    body {
-      flex-direction: column;
-    }
-  }
-  
