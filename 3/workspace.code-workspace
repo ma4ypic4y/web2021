@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\1"
+		},
+		{
+			"path": "..\\2"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\4"
+		},
+		{
+			"path": "..\\5"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "5"
+	}
+}

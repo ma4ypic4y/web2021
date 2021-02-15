@@ -7,8 +7,14 @@
 
 //     alert(Elem);
 // }
+var userName
+var userSurname
 
-
+function Add() {
+    alert("Done.")
+    userName = document.Form.userSurname.value
+    userSurname = document.Form.userName.value
+}
 
 function Complete() {
     // alert("PA");
@@ -17,9 +23,4 @@ function Complete() {
     document.getElementById("info").innerHTM = userName
     document.getElementById("info").innerHTML = userSurname
     
-}
-function Add() {
-    alert("Done.")
-    userName = document.Form.userSurname.value
-    userSurname = document.Form.userName.value
 }
