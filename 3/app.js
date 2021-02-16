@@ -1,20 +1,20 @@
-// function Complete() {
-//     // alert("PI");
-//     var Elem = "Surname: " + document.Form.userSurname.value +
-//         "\nName: " + document.Form.userName.value +
-//         // "\nDay: " + document.Form.day.value +
-//         "\nLogin: " + document.Form.login.value
+function Add() {
+    // alert("PI");
+    var Elem = "Surname: " + document.Form.userSurname.value +
+        "\nName: " + document.Form.userName.value +
+        // "\nDay: " + document.Form.day.value +
+        "\nLogin: " + document.Form.login.value
 
-//     alert(Elem);
-// }
+    alert(Elem);
+}
 var userName
 var userSurname
 
-function Add() {
-    alert("Done.")
-    userName = document.Form.userSurname.value
-    userSurname = document.Form.userName.value
-}
+// function Add() {
+//     alert("Done.")
+//     userName = document.Form.userSurname.value
+//     userSurname = document.Form.userName.value
+// }
 
 function Complete() {
     // alert("PA");

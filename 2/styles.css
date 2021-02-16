@@ -4,6 +4,7 @@ body {
     color: #86d7da;
     font-family: Arial Black;
     text-align: center;
+    
 
 }
 
@@ -44,13 +45,17 @@ a:visited {
     font-size: 25pt;
 }
 
-.blocks{
+#blocks{
   
-    justify-content: center;
+    /* justify-content: center; */
+    
+   
+
 }
 
 .block-1 {
     position: relative;
+    
     width: 350px;
     height: 350px;
     z-index: 1;
