@@ -20,7 +20,25 @@ body {
 
 }
 
-
+#triangle {
+    width: 0;
+    height: 0;
+    margin-left: 460px;
+    margin-top: 20px;
+    border-top: 70px solid transparent;
+    border-right: 140px solid #de13f7;
+    border-bottom: 70px solid transparent;
+}
+#circle {
+    width: 100px;
+    height: 100px;
+    background: #af2eff;
+    margin-left: 500px;
+    margin-top: 10px;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+}
 .rect {
     width: 100px;
     height: 100px;
