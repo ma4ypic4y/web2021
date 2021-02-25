@@ -1,0 +1,32 @@
+form {
+    width: 500px;
+}
+
+body {
+    background-color: #100f10;
+    color: #8739f9;
+}
+.form-control{
+    background-color: #363636;
+    color: #696464;
+    border: 0;
+}
+
+.form-control:checked {
+    background-color: red;
+  }
+.btn{
+    color: #000000;
+    background-color: #4d80e4;
+    border: 0;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: #a82ffc ;
+}
+.auth-page{
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 40%;
+    text-align: center;
+}
